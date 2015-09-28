@@ -1,0 +1,49 @@
+{
+  "name": "bbms-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project for Backbone-Marionette, SASS, Broswerify based project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anianj/bbms-boilerplate.git"
+  },
+  "keywords": [
+    "Backbone",
+    "Marionette",
+    "Javascript",
+    "Web"
+  ],
+  "author": "anianj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anianj/bbms-boilerplate/issues"
+  },
+  "homepage": "https://github.com/anianj/bbms-boilerplate#readme",
+  "sassify": {
+    "includePaths": [
+      "./node_modules/compass-mixins/lib"
+    ]
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "browserify": "^11.1.0",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "node-sass": "^3.3.3",
+    "sassify": "^0.9.1",
+    "stringify": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "backbone": "git+https://github.com/LPCD-FE/backbone.git#master",
+    "backbone.marionette": "git+https://github.com/LPCD-FE/backbone.marionette.git#master",
+    "compass-mixins": "^0.12.7",
+    "underscore": "^1.8.3"
+  }
+}
